@@ -43,8 +43,9 @@ DdlHub 是一款基于 Qt 框架开发的本地学习与效率管理工具，集
 ![课程表](./images/curriculum.png)
 ![我的DDL](./images/myddl.png)
 ![To-do List](./images/todolist.png)
-![成就](.images/achievement.png)
-![番茄钟](./images/tomatoclock.png)
+![成就](./images/achievement.png)
+![番茄钟](./images/tomatoclock1.png)
+![番茄钟](./images/tomatoclock2.png)
 
 ---
 
