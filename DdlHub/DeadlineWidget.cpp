@@ -361,27 +361,6 @@ void DeadlineWidget::showAddDDLDialog() {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void DeadlineWidget::addDDL(const DDLItem& item) {
 
 
@@ -418,28 +397,6 @@ void DeadlineWidget::addDDL(const DDLItem& item) {
     allDDLs.append(item);
     filterDDL(currentFilter);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 void DeadlineWidget::filterDDL(const QString& type) {
     QVector<DDLItem> filtered;
@@ -489,15 +446,6 @@ void DeadlineWidget::refreshDDLList(QVector<DDLItem> list) {
     }
 }
 
-
-
-
-
-
-
-
-
-
 void DeadlineWidget::onDDLUpdated(const DDLItem& newItem) {
     for (int i = 0; i < allDDLs.size(); ++i) {
         if (allDDLs[i].name == newItem.name && allDDLs[i].type == newItem.type) {
@@ -540,23 +488,6 @@ void DeadlineWidget::onDDLUpdated(const DDLItem& newItem) {
     filterDDL(currentFilter);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 void DeadlineWidget::onDDLDeleted(DDLWidget* widget) {
     if (!widget) return;
 
@@ -584,20 +515,6 @@ void DeadlineWidget::onDDLDeleted(DDLWidget* widget) {
 
     filterDDL(currentFilter);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 void DeadlineWidget::onDDLEditRequested(DDLWidget* widget) {
     if (!widget) return;
@@ -650,9 +567,3 @@ void DeadlineWidget::onDDLEditRequested(DDLWidget* widget) {
         break;
     }
 }
-
-
-
-
-
-
