@@ -62,7 +62,7 @@ DdlHub 是一款基于 Qt 框架开发的本地学习与效率管理工具，集
 1. 克隆本仓库：
 
    ```bash
-   git clone https://github.com/yourusername/DdlHub.git
+   git clone https://github.com/Shiyzr/DdlHub.git
    ```
 2. 使用 Qt Creator 打开 `.pro` 工程文件
 3. 编译并运行，即可体验完整功能
